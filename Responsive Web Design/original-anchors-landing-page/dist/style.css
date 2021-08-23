@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+body {
+  font-family: "Arvo", serif;
+}
+
+.link-anchor {
+  padding-top: 75px;
+}
+
+#header {
+  z-index: 1;
+  top: 0;
+  min-height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 75px;
+  border: 2px solid black;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  background-color: #fff;
+}
+
+#header-img {
+  height: inherit;
+  padding: 1em;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 1em;
+  color: #000;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+#main {
+  position: relative;
+  top: 20px;
+}
+
+#form #submit, #form input {
+  margin-top: 1em;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form {
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 3rem;
+  width: 70vw;
+  margin: auto;
+}
+
+#div {
+  width: 100%;
+  margin: auto;
+}
+
+#adv-section h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#adv-section {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+#adv-section h4, #adv-section p {
+  text-align: left;
+}
+
+#adv-section i {
+  margin: auto;
+  color: #f6c244;
+  font-size: 3rem;
+}
+
+@media (max-width: 600px) {
+  #header {
+    position: relative;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #header-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #nav-bar {
+    margin: auto;
+  }
+  
+  #nav-bar ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+  }
+  
+  section {
+    width: 100%;
+  }
+}
