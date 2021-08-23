@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
+a:hover {
+  color: #ffc107;
+}
+
 body {
   font-family: "Arvo", serif;
 }
