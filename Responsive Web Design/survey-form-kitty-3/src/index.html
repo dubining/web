@@ -1,0 +1,82 @@
+<h1 id="title"><i class="fa fa-cat"></i> Kitty Lovers Survey Form</h1>
+<p id="description">This is an example of html forms</p>
+
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+  </div>
+
+  <div class="form-group">
+    <label id="email-label" for="email">Email</label>
+    <input type="email" id="email" name="email" class="form-control" placeholder="Enter yout Email" required>
+  </div>
+
+  <div class="form-group">
+    <label id="number-label" for="age">Age (optional)</label>
+    <input type="number" id="number" name="age" class="form-control" placeholder="Age" min=9 max=99>
+  </div>
+
+  <div class="form-group">
+    <label id="love-label" for="love">Do you love cats?</label>
+    <select id="dropdown" name="love" class="form-control" required>
+      <option disabled selected value>Select your status</option>
+      <option value="No">No</option>
+      <option value="Dogs">No, dogs much better</option>
+      <option value="Soso">So-so</option>
+      <option value="Sure">Sure!</option>
+      <option value="BestFriend">Every cat is my best friend</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <p id="amount-label">How many cats do you have?</p>
+    <div class="form-check">
+      <label><input name="amount" value="No" type="radio" class="input-radio" checked />No cats</label>
+    </div>
+    <div class="form-check">
+      <label><input name="amount" value="NotYet" type="radio" class="input-radio" />Not yet</label>
+    </div>
+    <div class="form-check">
+      <label><input name="amount" value="One" type="radio" class="input-radio" />Only one</label>
+    </div>
+    <div class="form-check">
+      <label><input name="amount" value="Two" type="radio" class="input-radio" />Two cats</label>
+    </div>
+    <div class="form-check">
+      <label><input name="amount" value="More" type="radio" class="input-radio" />Three or more</label>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <p id="love-reason-label">Why do people love cats?</p>
+    <div class="form-check">
+      <label><input name="love-reason" value="purr" type="checkbox" class="input-checkbox">They purr</label>
+    </div>
+    <div class="form-check">
+      <label><input name="love-reason" value="soft" type="checkbox" class="input-checkbox">They are soft</label>
+    </div>
+    <div class="form-check">
+      <label><input name="love-reason" value="good-listeners" type="checkbox" class="input-checkbox">They are good listeners</label>
+    </div>
+    <div class="form-check">
+      <label><input name="love-reason" value="piles" type="checkbox" class="input-checkbox">Cuddle piles!</label>
+    </div>
+    <div class="form-check">
+      <label><input name="love-reason" value="sizes" type="checkbox" class="input-checkbox">They come in all shapes, sizes, and colors.</label>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <p id="comments-label">Any comments?</p>
+    <textarea id="comments" name="commennts" class="input-textarea" placeholder="Enter your comments here..."></textarea>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" id="submit" class="btn button-default button-submit">
+      Submit <i class="fa fa-paw" id="paw"></i>
+    </button>
+  </div>
+</form>
+
+<a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a>

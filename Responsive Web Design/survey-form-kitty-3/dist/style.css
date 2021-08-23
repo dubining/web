@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+body {
+  font-family: "Varela Round", sans-serif;
+  background-image: url("https://github.com/dubining/web/raw/main/Responsive%20Web%20Design/survey-form-kitty-3/bg.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+[id$="-label"] {
+  font-size: 1.2em;
+}
+
+#title {
+  text-align: center;
+  font-style: bold;
+  color: #ffa3a5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#description {
+  text-align: center;
+  color: #ffa3a5;
+  font-size: 1.5em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#survey-form {
+  margin: auto;
+  width: 80%;
+  padding: 3em;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.input-textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 0.5em;
+  resize: vertical;
+}
+
+#paw {
+  color: #ffa3a5;
+}
+
+#submit {
+  background-color: #fff;
+  width: 100%;
+  padding: 1em;
+  font-size: 2em;
+}
