@@ -1,0 +1,63 @@
+body {
+  font-family: system-ui;
+  background: #111;
+}
+
+#navbar {
+  background: #fff;
+  position: fixed;
+  width: 290px;
+  padding: 5px;
+}
+
+#main-doc {
+  background: #fff;
+  margin-left: 310px;
+  padding: 5px;
+  background: #111;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+#navbar header {
+  font-weight: normal;
+}
+
+.main-section {
+  background: #fff;
+  margin-bottom: 1em;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #444;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+  background: #fff;
+  position: relative;
+    margin: auto;
+  padding: 5px;
+}
+  
+  #main-doc {
+  background: #fff;
+  margin: auto;
+  padding: 5px;
+  background: #111;
+}
+}
