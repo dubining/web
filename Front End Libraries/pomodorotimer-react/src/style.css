@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+
+body {
+  color: #212121;
+  background-color: #fff9c4;
+}
+
+#app {
+  font-family: "Inconsolata", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  padding: 1em;
+}
+
+.length {
+  width: 100%;
+  text-align: center;
+}
+
+.editors {
+  width: 100vw;
+}
+
+.editor-time {
+  font-size: 3em;
+}
+
+.editor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#timer-label {
+  font-size: 3em;
+}
+
+#time-left {
+  font-size: 3em;
+}
+
+.btn-default {
+  transition: 500ms;
+}
+
+.btn-default:hover {
+  transform: scale(1.5);
+}
+
+.btn-default:hover {
+  transform: scale(1.5);
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:active:focus,
+.btn-default:visited,
+.btn-default:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+}
