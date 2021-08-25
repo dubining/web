@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+
+.img-thumbnail {
+  object-fit: cover;
+}
+
+body {
+  font-family: "Share Tech Mono", monospace;
+  color: #eeeeee;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  transition: 250ms;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  transition: 250ms;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+}
+
+#welcome-section p {
+  text-align: center;
+  font-style: italic;
+  font-size: 2.5rem;
+  color: #81c784;
+  transition: 250ms;
+}
+
+#projects {
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #81c784;
+  color: #212121;
+}
+
+#projects h2 {
+  padding-top: 1.3em;
+  text-decoration: underline;
+}
+
+.project-tiles {
+  padding: 3em;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 3em;
+}
+
+.project-tiles a {
+  text-decoration: none;
+}
+
+.project-tile {
+  border: 3px solid #212121;
+  transition: 250ms;
+}
+.project-tile:hover .code {
+  color: #81c784;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-name {
+  background-color: #212121;
+  color: #eeeeee;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 3rem;
+  z-index: 1;
+  background-color: #212121;
+  border-bottom: 5px solid #eeeeee;
+  -webkit-box-shadow: 0px 4px 19px 2px #000000;
+  box-shadow: 0px 4px 19px 2px #000000;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 2em;
+  transition: 250ms;
+}
+
+.code {
+  color: #212121;
+  transition: 100ms;
+}
+
+#navbar a:hover {
+  color: #81c784;
+}
+
+#navbar a:hover .code {
+  color: #81c784;
+}
+
+#second-line {
+  border-bottom: 3px solid #81c784;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-color: #212121;
+}
+
+#links h2 {
+  padding-top: 1.3em;
+}
+
+#links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.links-obj {
+  font-size: 1.2em;
+  padding: 1em;
+  transition: 250ms;
+}
+
+.links-obj a {
+  color: #eeeeee;
+  transition: 250ms;
+  text-decoration: none;
+}
+
+.links-obj a:hover {
+  color: #81c784;
+}
+
+.links-obj:hover {
+  color: #81c784;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  #welcome-section p {
+    font-size: 1.5rem;
+  }
+
+  #navbar a {
+    font-size: 1em;
+  }
+
+  #navbar {
+    min-height: auto;
+  }
+}
